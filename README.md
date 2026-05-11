@@ -18,7 +18,7 @@ to the Visual C++ runtime DLL, to do this, just use the /MT or /MTd (for debug) 
 
      `Linker -> Advanced -> Randomized Base Address -> Yes (/DYNAMICBASE)`
   
-     `Linker -> Advanced -> Randomized Base Address -> Fixed Base Address -> No (/FIXED:NO)`
+     `Linker -> Advanced -> Fixed Base Address -> No (/FIXED:NO)`
    
 in-depth explanation of process hollowing is explained very well by my boy john (PDF attached)
 
